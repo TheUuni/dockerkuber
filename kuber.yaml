@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: yura-site-pod
+spec:
+  containers:
+  - name: nginx
+    image: lolgg/yura-site-hub:latest
+    ports:
+    - containerPort: 80
